@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  background-color: #00b7ff;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+  font-size: 1rem;
+  padding-top: 2rem;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: #00b7ff;
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+}
+
+.btn.btn-primary {
+  background-color: #00b7ff;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+  background-color: #00a5e6;
+  box-shadow: none;
+}
+
+.form-check-input:checked {
+  background-color: #00b7ff;
+  border-color: #00b7ff;
+}
+
+.generator {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.08);
+}
+
+.generator .result-container {
+  background-color: rgba(0, 0, 0, 0.04);
+  align-items: center;
+  position: relative;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.generator .result-container #result {
+  font-size: 0.95rem;
+  word-wrap: break-word;
+  border: 0px;
+  background-color: transparent;
+}
+
+.generator .result-container #result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.generator .passwordSelection {
+  border: 1px solid #e4e4e4;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.generator .passwordSelection #rangeText {
+  font-weight: bold;
+  font-size: 1.25rem;
+  border: 1px solid #c0c0c0;
+  padding: 0.25rem;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: -10px;
+}
+
+.generator .form-check.form-switch {
+  margin-bottom: 0.75rem;
+}
+
+.generator .form-check.form-switch .form-check-input {
+  height: 1.5rem;
+  width: 2.5rem;
+}
+
+.generator .form-check.form-switch label {
+  margin-left: 1rem;
+  position: relative;
+  top: 0.25rem;
+}
